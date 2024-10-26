@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollable Speaker Cards</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Popup just above the slider -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <div class="popup-details">
+        <img src="" alt="Speaker" id="popupImg" class="popup-img">
+        <h3 id="popupName">Speaker Name</h3>
+        <p id="popupContact">Contact Info</p>
+        <p id="popupTitle">Speaker Title</p>
+        <p id="popupDescription">Additional Details...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Previous Button -->
+  <button id="prevBtn" class="scroll-btn">Previous</button>
+
+  <!-- Speaker Container -->
+  <div class="speakers-container" id="speakersContainer"></div>
+
+  <!-- Next Button -->
+  <button id="nextBtn" class="scroll-btn">Next</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
